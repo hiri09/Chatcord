@@ -28,6 +28,9 @@ io.on('connection',(socket)=>{
          room:user.room,
          users:getroomusers(user.room)
       })
+
+
+      
    })
    
    //runs when client leaves the chat
